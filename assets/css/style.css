@@ -1,0 +1,149 @@
+/* Menu */
+body {
+  margin: 0;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  gap: 30px;
+  margin-bottom: 50px;
+  background-color: lightslategray;
+  height: 40px;
+  align-items: center;
+  justify-items: center;
+  padding-left: 30px;
+  overflow: hidden;
+}
+
+.menu__item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+}
+
+.menu__item:hover .menu__enlace {
+  text-decoration: underline;
+}
+
+.menu__item_activo {
+  background-color: black;
+  color: white;
+}
+
+.menu__enlace {
+  text-decoration: none;
+  color: black;
+}
+
+.menu__enlace_activo {
+  color: white;
+}
+
+/* Solución a la pregunta 01 */
+
+.imagen-pregunta01 {
+  width: 200px;
+  cursor: pointer;
+}
+
+.imagen-border {
+  border: 2px solid red;
+}
+
+/* Solución a la pregunta 02 */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pregunta {
+  margin-bottom: 30px;
+}
+
+.pregunta__info {
+  text-align: center;
+}
+.stickers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.sticker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sticker__imagen {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.sticker__input {
+  width: 70px;
+}
+
+.pregunta__mensaje {
+  height: 45px;
+  width: 400px;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.pregunta__verificar {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.pregunta__verificar:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+/* Solución a la pregunta 03 */
+.password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password__label {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.password__digitos {
+  margin-bottom: 15px;
+}
+
+.password__ingresar {
+  width: 100px;
+  cursor: pointer;
+}
+
+.password__mensaje {
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
+.password__mensaje_correcto {
+  background-color: green;
+}
+
+.password__mensaje_incorrecto {
+  background-color: red;
+}

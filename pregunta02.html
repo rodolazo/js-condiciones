@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafío Latam: Condiciones</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__enlace" href="index.html"><i class="fa fa-home fa-2x"></i></a></li>
+            <li class="menu__item"><a class="menu__enlace" href="pregunta01.html">Pregunta 01</a></li>
+            <li class="menu__item menu__item_activo"><a class="menu__enlace menu__enlace_activo"
+                    href="pregunta02.html">Pregunta 02</a></li>
+            <li class="menu__item"><a class="menu__enlace" href="pregunta03.html">Pregunta 03</a></li>
+        </ul>
+    </nav>
+    <h1>Pregunta 02</h1>
+    <main class="main">
+        <p class="pregunta">Se debe construir una página web que permita pedir hasta 10 stickers de los 3 tipos
+            disponibles. Para eso deberá existir un input debajo de cada imagen donde el
+            usuario podrá ingresar un número. En caso de que la suma de todos los stickers
+            seleccionados sea menor o igual 10 se indicará en un párrafo nuevo la cantidad de
+            stickers llevados. Ejemplo "llevas 5 stickers" en cualquier otro caso se mostrará un
+            texto que dice "Llevas demasiados stickers". </p>
+        <p class="pregunta__info">Puedes llegar hasta 10 stickers en total</p>
+        <div class="stickers">
+            <div class="sticker">
+                <img src="assets/img/discord.jfif" alt="Logo de Discord" class="sticker__imagen">
+                <input type="number" class="sticker__input">
+            </div>
+            <div class="sticker">
+                <img src="assets/img/gulpjs.jfif" alt="Logo de gulp.js" class="sticker__imagen">
+                <input type="number" class="sticker__input">
+            </div>
+            <div class="sticker">
+                <img src="assets/img/Slack-Emblema.png" alt="Logo de slack" class="sticker__imagen">
+                <input type="number" class="sticker__input">
+            </div>
+        </div>
+        <p class="pregunta__mensaje"></p>
+        <button class="pregunta__verificar">Verificar</button>
+    </main>
+    <script src="assets/js/index02.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafío Latam: Condiciones</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu__item"><a class="menu__enlace" href="index.html"><i class="fa fa-home fa-2x"></i></a></li>
+            <li class="menu__item"><a class="menu__enlace" href="pregunta01.html">Pregunta 01</a></li>
+            <li class="menu__item"><a class="menu__enlace" href="pregunta02.html">Pregunta 02</a></li>
+            <li class="menu__item menu__item_activo"><a class="menu__enlace menu__enlace_activo"
+                    href="pregunta03.html">Pregunta 03</a></li>
+        </ul>
+    </nav>
+    <h1>Pregunta 03</h1>
+    <p>Se debe construir una página con 3 select y opciones con dígitos del 1 al 9, al hacer
+        click a la opción ingresar se debe verificar que el password sea 911 y en ese caso
+        mostrar debajo del botón ingresar, un párrafo con el contenido "password 1
+        correcto", en caso de que el password sea 714 se debe mostrar en el párrafo
+        "password 2 es correcto", si ingresa otro valor se debe mostrar "password
+        incorrecto"</p>
+    <main class="password">
+        <p class="password__label">Ingresa el password :</p>
+        <div class="password__digitos">
+            <select class="password__digito">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="password__digito">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select class="password__digito">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <button class="password__ingresar">Ingresar</button>
+        <p class="password__mensaje"></p>
+    </main>
+    <script src="assets/js/index03.js"></script>
+</body>
+
+</html>
